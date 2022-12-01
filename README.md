@@ -58,5 +58,6 @@ stk_clf=sklearn.ensemble.StackingClassifier(estimators=estimators,
 * Then just open the .ipynb file and run
 ### Copyright and licensing information
 * All copyrights and licenses are subject to MIT License.
+* [See more details](https://github.com/Gamejoongsa/OSW_FinalProject_20221555/blob/master/LICENSE)
 ### Contact information for the distributor or author
 > E-mail : jane10000@cau.ac.kr
