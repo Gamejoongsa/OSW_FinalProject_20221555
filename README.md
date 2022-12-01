@@ -4,7 +4,7 @@
 * Configuration instructions
 
 * Operating instructions
-
+> Just open the .ipynb file and run
 * Copyright and licensing information
   * All copyrights and licenses are subject to MIT License.
 * Contact information for the distributor or author
