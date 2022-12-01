@@ -1,8 +1,8 @@
 # OSW_FinalProject_20221555
-## 오픈소스SW 기말 프로젝트 - Brain Tumor MRI Classification
-
+## OpenSourceSW Course Final Project - Brain Tumor MRI Classification
+* This program shows the process of learning AI that receives and classifies Brain Tumor MRI images.
 ### Configuration instructions
-> Still writing...
+> * Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc.
 ### Operating instructions
 > Just open the .ipynb file and run
 ### Copyright and licensing information
