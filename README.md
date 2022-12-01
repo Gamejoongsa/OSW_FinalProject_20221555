@@ -5,7 +5,7 @@
 #### Training Dataset
 * Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc.
 * There are four classes for training dataset : _glimora_tumor, meningioma_tumor, pituitary_tumor, and no_tumor._
-* All datas are in the tumor_dataset folder.
+* All datas are in the `tumor_dataset` folder.
 * Each folder has more four subfolders.
   * These folders have MRIs of respective tumor classes.
   
@@ -54,8 +54,8 @@ stk_clf=sklearn.ensemble.StackingClassifier(estimators=estimators,
 ```
 
 ### Operating instructions
-* Clone repository, or download **tumor_dataset folder** and **.ipynb file**.
-* Then just open the .ipynb file and run
+* Fork this repository, or download `tumor_dataset` folder and `.ipynb` file.
+* Then just open the `.ipynb` file and run
 ### Copyright and licensing information
 * All copyrights and licenses are subject to `MIT License`.
 [See more details](https://github.com/Gamejoongsa/OSW_FinalProject_20221555/blob/master/LICENSE)
