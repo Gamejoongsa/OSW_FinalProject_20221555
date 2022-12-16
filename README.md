@@ -8,7 +8,7 @@
 * All datas are in the `tumor_dataset` folder.
 * Each folder has more four subfolders.
   * These folders have MRIs of respective tumor classes.
-* **Splited Training and Test datasets ratio is set to 0.3 -> 0.01. <--Important!** 
+* **Splited Training and Test datasets ratio is set to 0.3 -> 0.01.** 
 
 <left><img src="https://user-images.githubusercontent.com/115198461/208063269-acc76837-3b9f-4dd1-bea7-569d36010f82.jpg" width=200 height=200> 
 <img src="https://user-images.githubusercontent.com/115198461/208063306-bc1f2c0b-9d44-4492-80be-e30179872455.jpg" width=200 height=200> 
