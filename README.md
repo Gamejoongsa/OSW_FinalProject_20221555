@@ -26,7 +26,7 @@ clf = sklearn.svm.SVC(C=56.66691242696504,
                        probability=True,
                        random_state=3868671)
 ```
-* Explaining of Parameters
+* Explaining Parameters
   - `C` : Regularization parameter. The strength of the regularization is inversely proportional to C. Must be strictly positive. The penalty is a squared l2 penalty.
   - `gamma` : Kernel coefficient.
   - `probability` : Whether to enable probability estimates. This must be enabled prior to calling `fit`, will slow down that method as it internally uses 5-fold cross-validation, and `predict_proba` may be inconsistent with `predict`.
