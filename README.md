@@ -33,7 +33,7 @@ clf = sklearn.svm.SVC(C=56.66691242696504,
   - `random_state` : Controls the pseudo random number generation for shuffling the data for probability estimates.
 
 ### Operating instructions
-* Fork this repository, or download `tumor_dataset` folder and `.ipynb` file.
+* Fork this repository, or download `tumor_dataset` folder and `.ipynb` file **in the same directory**.
 * Then just open the `.ipynb` file and run
 ### Copyright and licensing information
 * All copyrights and licenses are subject to `MIT License`.
