@@ -22,10 +22,10 @@ clf = sklearn.svm.SVC(C=56.66691242696504,
                        random_state=3868671)
 ```
 * Explaining of Parameters
-- `C` : Explaning
-- `gamma` : Explaning
-- `probability` : Explaning
-- `random_state` : Explaning
+  - `C` : Regularization parameter. The strength of the regularization is inversely proportional to C. Must be strictly positive. The penalty is a squared l2 penalty.
+  - `gamma` : Kernel coefficient.
+  - `probability` : Whether to enable probability estimates. This must be enabled prior to calling `fit`, will slow down that method as it internally uses 5-fold cross-validation, and `predict_proba` may be inconsistent with `predict`.
+  - `random_state` : Controls the pseudo random number generation for shuffling the data for probability estimates.
 
 ### Operating instructions
 * Fork this repository, or download `tumor_dataset` folder and `.ipynb` file.
@@ -34,4 +34,8 @@ clf = sklearn.svm.SVC(C=56.66691242696504,
 * All copyrights and licenses are subject to `MIT License`.
 [See more details](https://github.com/Gamejoongsa/OSW_FinalProject_20221555/blob/master/LICENSE)
 ### Contact me
+> Name : Jaein Lee
+
+> Student ID : 20221555
+
 > E-mail : jane10000@cau.ac.kr
