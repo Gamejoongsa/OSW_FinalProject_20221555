@@ -8,50 +8,24 @@
 * All datas are in the `tumor_dataset` folder.
 * Each folder has more four subfolders.
   * These folders have MRIs of respective tumor classes.
+* **Splited Training and Test datasets ratio is set to 0.3 -> 0.01. <--Important!** 
   
 #### Used Algorithms
-* Random Forest
-* Multi-Layer Perceptron
-* K-Neighbors
 * Support Vertor Machine
-* Stacking Ensemble(Using Logistic Regression)
   
 #### Hyperparameters of the function
-* Random Forest
+* Code of Support Vertor Machine 
 ```Python
-rf_clf = sklearn.ensemble.RandomForestClassifier(criterion='gini',
-                                                 n_estimators=4096,
-                                                 random_state=0)
+clf = sklearn.svm.SVC(C=56.66691242696504,
+                       gamma=1.1816539689843626,
+                       probability=True,
+                       random_state=3868671)
 ```
-* Multi-Layer Perceptron
-```Python
-mlp_clf = MLPClassifier(max_iter=1500,
-                        hidden_layer_sizes=(30, 20, 15),
-                        activation='relu',
-                        learning_rate='adaptive',
-                        alpha=0.001,
-                        random_state=0)
-```
-* K-Neighbors   
-```Python
-knn_clf = KNeighborsClassifier(n_neighbors=4,
-                               algorithm='auto',
-                               weights='distance')
-``` 
-* Support Vertor Machine 
-```Python
-svc_clf = sklearn.svm.SVC(C=10.0,
-                          gamma=0.01,
-                          random_state=0)
-```
-* Stacking Ensemble(Using Logistic Regression)  
-```Python
-meta_clf = sklearn.linear_model.LogisticRegression(max_iter=1500,
-                                                   random_state=0)
-                                                   
-stk_clf=sklearn.ensemble.StackingClassifier(estimators=estimators,
-                                            final_estimator=meta_clf)
-```
+* Explaining of Parameters
+- `C` : Explaning
+- `gamma` : Explaning
+- `probability` : Explaning
+- `random_state` : Explaning
 
 ### Operating instructions
 * Fork this repository, or download `tumor_dataset` folder and `.ipynb` file.
